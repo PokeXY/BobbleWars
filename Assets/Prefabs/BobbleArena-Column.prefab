@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 474577563433580579}
   - component: {fileID: 4963923860661351191}
   - component: {fileID: 8652037492897972165}
-  m_Layer: 0
+  - component: {fileID: 982403131249689794}
+  m_Layer: 11
   m_Name: BobbleArena-Column
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -67,6 +68,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.07, y: 5.25, z: 2}
   m_Center: {x: 0, y: 2.66, z: 0}
+--- !u!208 &982403131249689794
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1002317791559807706}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 1.035, y: 2.135, z: 1}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 2.3, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1919151847912870622
 GameObject:
   m_ObjectHideFlags: 0
@@ -78,7 +95,7 @@ GameObject:
   - component: {fileID: 1131996184860149324}
   - component: {fileID: 6779411932495102277}
   - component: {fileID: 8410827347033286549}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Cube_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -155,7 +172,7 @@ GameObject:
   - component: {fileID: 827678918603113536}
   - component: {fileID: 6390567089730080404}
   - component: {fileID: 4555000899335673741}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Cube_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -232,7 +249,7 @@ GameObject:
   - component: {fileID: 4617830440377778639}
   - component: {fileID: 104546012091657739}
   - component: {fileID: 2824262929356692347}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
