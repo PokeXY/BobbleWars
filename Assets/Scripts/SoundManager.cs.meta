@@ -13,7 +13,7 @@ MonoImporter:
   - elevatorArrived: {instanceID: 0}
   - powerUpPickup: {instanceID: 0}
   - powerUpAppear: {instanceID: 0}
-  executionOrder: 0
+  executionOrder: 50
   icon: {instanceID: 0}
   userData: 
   assetBundleName: 
